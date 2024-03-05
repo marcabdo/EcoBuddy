@@ -1,0 +1,82 @@
+{"intents": [
+    {"tag": "noanswer",
+    "patterns": [""],
+    "responses": ["Sorry i cannot help you with that.","I do not understand what you're asking.","Please give me more information."],
+    "context": [""]
+    },
+    {"tag": "whatsup",
+    "patterns": ["Whats up","Wazzup","How are you","sup","How you doing"],
+    "responses": ["All good..What about you?"],
+    "context": [""]
+    },
+    {"tag":"fine",
+    "patterns": ["i'm good", "i'm alright i guess", "doing decent","chilling","living","surviving"],
+    "responses": ["Great!","Fair enough","Good for you!"],
+    "context": [""]
+    },
+    {"tag": "greeting",
+     "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+     "context": [""]
+    },
+    {"tag": "about",
+    "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+    "responses": ["I'm EcoBuddy, here to help you learn about the environment!!"],
+    "context_set":[""]
+    },
+    {"tag": "bot",
+     "patterns": ["what can you help me with","what can you do", "what can you teach me"],
+     "responses": ["I'm EcoBuddy, a bot that knows all about sustanability! what would you like to know about?"],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["My pleasure", "You're Welcome"],
+     "context": [""]
+    },
+    {"tag": "recycling",
+     "patterns": ["what is recycling", "how to recycle", "where can i recycle", "why should i recycle"],
+     "responses": ["Recycling is the process of converting waste materials into reusable objects or materials. It involves collecting, sorting, processing, and remanufacturing materials like paper, glass, metal, and plastic so they can be used again instead of being disposed of as waste. You can recycle by disposing of these items in their allocated disposal sites"],
+     "context": [""]
+    },
+    {"tag": "recyclinghowto",
+     "patterns": ["what can i recycle", "is recyclable"],
+     "responses": ["Here's a list of all recyclables: Glass(Empty bottles and jars), Metal (Metal cans, Soft drink cans, Jar lids, Aluminum containers (clean or food soiled), Aluminum foil (clean or food soiled), Empty paint cans with lids removed, Empty aerosol cans (hairspray, paint, whipping cream), Spiral-wound canisters with metal ends, frozen concentrate cans, potato chip tube), Plastic(Food and household containers, Take-out containers, bakery and produce containers (clam shells), Pails (remove metal handle), Planting trays, Flower pots, Single serve yogurt cups, Clear plastic egg cartons, Plastic bottles, jars and jugs, Tubs and tub lids (yogurt, ice cream, margarine containers), Cartons(Milk and juice cartons, Drink boxes, Soup boxes, Frozen meal trays and take-out containers), Empty Alcohol Containers (Empty wine, beer and spirit containers greater than 100 ml purchased in Ontario must be returned, for refund at The Beer Store.)"],
+     "context": [""]
+    },
+    {"tag": "canrecycles",
+    "patterns": ["can i recycle", "can we recycle","can anyone recycle"],
+    "responses": ["Sure! Recycling is something everyone can do, including kids! It's all about turning old stuff into new things instead of throwing them away. You can recycle at home or with your friends at school. It helps protect our planet by saving resources and keeping our environment clean and healthy!"],
+    "context": [""]
+    },
+    {"tag": "climatechange",
+     "patterns": ["what is climate change", "who does climate change effect", "what causes climate change", "what does climate change cause"],
+     "responses": ["Climate change refers to long-term alterations in Earth's climate patterns primarily caused by human activities emitting greenhouse gases. These changes lead to global warming and disruptions in weather patterns, impacting ecosystems, economies, public health, and livelihoods worldwide. Vulnerable populations, including low-income communities and coastal residents, often experience the most severe effects. Human activities such as burning fossil fuels, deforestation, industrial processes, agriculture, and waste management release greenhouse gases, trapping heat in the atmosphere and causing global warming. As a result, climate change leads to rising temperatures, extreme weather events, disruptions in ecosystems, food and water insecurity, and public health risks, affecting human societies and natural environments globally."],
+     "context": [""]
+    },
+    {"tag": "climatefix",
+     "patterns": ["how can i prevent climate change", "what steps should i take in order to help the environment", "how can i save the earth", "how can i save the planet", "stop water rise", "stop animal extinction"],
+     "responses": ["To help stop climate change, you can do lots of things! Remember to save energy by turning off lights when you're not using them and using less electricity. Try using wind or solar power instead of fossil fuels like coal or oil. It's also important to reduce, reuse, and recycle as much as you can to make less trash. Instead of always taking a car, you can walk, bike, or take the bus sometimes to cut down on pollution. Supporting eco-friendly practices and telling others how they can help too is super helpful. Plus, planting trees and talking about climate change can make a big difference!"],
+     "context": [""]
+    },
+    {"tag": "randomnature",
+    "patterns": ["random nature fact", "fun facts about nature", "fun fact","tell me a fun fact"],
+    "responses": ["The blue whale, the largest animal on Earth, can weigh as much as 200 tons and have a heart the size of a small car.","The Venus flytrap, a carnivorous plant native to the southeastern United States, can close its trap in less than a second when it senses prey.","The bombardier beetle defends itself by shooting a boiling hot chemical spray at its enemies.","Octopuses have three hearts and blue blood.","The color of a flamingo's feathers comes from the carotenoid pigments in the food they eat, such as shrimp and algae.","The tongue of a blue whale can weigh as much as an elephant.","The Australian giant cuttlefish can change both the color and texture of its skin to camouflage itself.","The pistol shrimp can snap its claw shut so quickly that it creates a bubble that reaches temperatures as high as 8,000 degrees Fahrenheit (4,400 degrees Celsius) and produces a sound louder than a gunshot.","The 'singing' of humpback whales is a complex series of sounds that can last for hours and is thought to be a form of communication.","There are more species of beetles than any other type of animal on Earth, with over 350,000 species described so far."],
+    "context": [""]
+    },
+    {"tag": "pollution",
+     "patterns": ["what is pollution", "how does pollution work", "why is pollution bad for the animals", "can pollution hurt me", "can i feel pollution"],
+     "responses": ["Pollution is like when bad stuff gets into our environment and makes things messy and unhealthy. It happens when things like car smoke, factories, or littering put yucky stuff into the air, water, or land. This can make it hard for animals to live happily because their homes get dirty, their food can get poisoned, and they might get sick. Pollution isn't good for us either. Breathing in dirty air or drinking polluted water can make us sick too. Sometimes we can smell or see pollution, like when the air looks smoggy or the water looks dirty, but other times it's harder to notice. That's why it's important for all of us to try to keep our environment clean and healthy!"],
+     "context": [""]
+    },
+    {"tag": "stoppollution",
+    "patterns": ["can we stop pollution", "can we stop polluting", "can we get rid of pollution", "what will happen if we don't stop polluting"],
+    "responses": ["If we don't stop polluting, our planet could get really sick! Pollution makes the air, water, and land dirty and yucky. This can make animals and people sick too. Imagine if the air was smelly or the water was too dirty to swim in! But don't worry, we can help by using less plastic, recycling, and planting trees. Together, we can keep our Earth clean and happy for all creatures to enjoy!"],
+    "context": [""]
+    }
+]}
